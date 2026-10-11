@@ -1,16 +1,79 @@
-# React + Vite
+# Gramora AI – Rural Grocery Delivery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Gramora AI is a web application designed to make grocery shopping convenient for rural communities. It connects customers with grocery products while supporting local businesses through digital ordering and inventory management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Product Browsing:** View grocery products and prices.
+- **Search and Categories:** Find products using search and category filters.
+- **Shopping Cart:** Add products and manage quantities.
+- **Delivery Charges:** Free delivery on orders of ₹99 or more.
+- **Order Placement:** Place grocery orders through the application.
+- **Order Tracking:** View order details and order status.
+- **Responsive Interface:** A clean, green-themed shopping experience.
+- **Backend Integration:** Communicates with the Spring Boot backend through APIs.
 
-## React Compiler
+## Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- HTML and CSS
+- REST APIs
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+GramoraAI-frontend/
+├── public/
+├── src/
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## Getting Started
+
+### Prerequisites
+
+Install Node.js and npm.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/snehitha123456/GramoraAI-frontend.git
+```
+
+Open the project directory:
+
+```bash
+cd GramoraAI-frontend
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL printed in the terminal, usually `http://localhost:5173/`.
+
+## Backend Repository
+
+The frontend works with the Gramora AI backend for supported product, cart, and order operations.
+
+[View GramoraAI-backend](https://github.com/snehitha123456/GramoraAI-backend)
+
+## Project Goal
+
+To improve access to grocery shopping in rural areas and help local grocery businesses manage digital orders and inventory more effectively.
